@@ -126,5 +126,15 @@
         "source": "base_assistant",
         "content": "Could you provide a description for the image you would like to add?",
         "metadata": {}
+    },
+    {
+        "id": "2754abf4-eed2-4fb3-8752-179a9caed083",
+        "timestamp": "2024-11-20T15:00:33.916880Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "surprise me",
+        "metadata": {
+            "component_id": "Footer1732114502"
+        }
     }
 ]
