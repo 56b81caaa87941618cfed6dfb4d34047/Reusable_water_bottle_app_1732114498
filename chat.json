@@ -118,5 +118,13 @@
         "metadata": {
             "component_id": "Footer1732114502"
         }
+    },
+    {
+        "id": "4433c15d-74a5-40a5-9110-e9d91b03e19f",
+        "timestamp": "2024-11-20T15:00:27.908370Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Could you provide a description for the image you would like to add?",
+        "metadata": {}
     }
 ]
