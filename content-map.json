@@ -1,0 +1,23 @@
+{
+    "name": "example",
+    "prefix": "%#PLACEHOLDER",
+    "placeholderMappings": {
+        "Header": [
+            "APPLICATION_NAME"
+        ],
+        "Hero": [
+            "HERO_HEADING_TEXT",
+            "HERO_SUBHEADING_TEXT"
+        ],
+        "Footer": [
+            "APPLICATION_NAME",
+            "FOOTER_TEXT"
+        ]
+    },
+    "placeholders": {
+        "APPLICATION_NAME": "AquaFlow",
+        "HERO_HEADING_TEXT": "Quench Your Thirst, Sustainably",
+        "HERO_SUBHEADING_TEXT": "Discover our innovative water bottle solutions for a greener, more hydrated world",
+        "FOOTER_TEXT": "\u00a9 2023 AquaFlow. Drink smart, live sustainably."
+    }
+}
