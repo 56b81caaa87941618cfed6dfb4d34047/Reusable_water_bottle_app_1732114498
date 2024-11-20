@@ -10,7 +10,9 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">AquaFlow</h3>
             <p className="text-blue-200">© 2023 AquaFlow. Drink smart, live sustainably.</p>
-          </div>
+            <div className="flex justify-center mt-4">
+              <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Reusable_water_bottle_app_1732114498/main/src/assets/images/d3a6f7beea5f47a483512713b9e8cc81.jpeg" alt="AquaFlow" className="max-w-full h-auto" />
+            </div>
 
           {/* QUICK LINKS */}
           <div className="space-y-4">
