@@ -445,5 +445,13 @@
         "metadata": {
             "component_id": "Footer1732114502"
         }
+    },
+    {
+        "id": "d58245e1-1c98-4041-9842-39f40cc42435",
+        "timestamp": "2024-11-20T15:10:33.575658Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "To add a new title, please go to the \"Components\" tab in the MakeInfinite studio and drag and drop the Heading or Text component into the canvas. Once you have done that, I can help you set the title text to \"NEWW\" if needed.",
+        "metadata": {}
     }
 ]
