@@ -108,5 +108,15 @@
         "source": "base_assistant",
         "content": "The footer component has been beautified with a modern and sleek design. Would you like to make any other changes?",
         "metadata": {}
+    },
+    {
+        "id": "62444472-c725-407b-9236-8f26b01b25aa",
+        "timestamp": "2024-11-20T15:00:25.352637Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "I want you to add a small image on the center",
+        "metadata": {
+            "component_id": "Footer1732114502"
+        }
     }
 ]
