@@ -8,10 +8,10 @@ const Hero: React.FC = () => {
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-5xl font-bold mb-6 leading-tight">Quench Your Thirst, Sustainably</h1>
           <p className="text-xl mb-8 text-gray-300">Discover our innovative water bottle solutions for a greener, more hydrated world</p>
-          <button className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" className="inline-block bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
             <i className='bx bx-water mr-2'></i>
             Explore Now
-          </button>
+          </a>
         </div>
         <div className="md:w-1/2 flex justify-center">
           <img src="/path-to-your-image.png" alt="Sustainable Water Bottle" className="max-w-md rounded-lg shadow-2xl" />
