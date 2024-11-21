@@ -6,13 +6,5 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
-    },
-    {
-        "id": "5bf8dcce-f8e9-4cf1-9cbc-ef9d901eaf03",
-        "timestamp": "2024-11-21T09:45:36.465319Z",
-        "role": "user",
-        "source": "web_client",
-        "content": "create a frontend component for this sc 0x1F98431c8aD98523631AE4a59f267346ea31F984 on ethereum",
-        "metadata": {}
     }
 ]
