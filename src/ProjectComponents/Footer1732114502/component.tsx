@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
 
           {/* FOOTER COPY */}
           <div className="space-y-6">
@@ -22,6 +22,15 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
+          {/* WATER DROP ICON */}
+          <div className="flex justify-center items-center">
+            <img 
+              src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Reusable_water_bottle_app_1732114498/main/src/assets/images/d3a6f7beea5f47a483512713b9e8cc81.jpeg" 
+              alt="AquaFlow Logo" 
+              className="w-48 h-48 max-w-full h-auto"
+            />
+          </div>
+
           {/* SOCIALS */}
           <div className="space-y-6">
             <h4 className="text-2xl font-semibold">Connect With Us</h4>
@@ -36,15 +45,6 @@ const Footer: React.FC = () => {
                 <i className="bx bxl-instagram text-4xl"></i>
               </a>
             </div>
-          </div>
-
-          {/* WATER DROP ICON */}
-          <div className="flex justify-end items-center">
-            <img 
-              src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Reusable_water_bottle_app_1732114498/main/src/assets/images/d3a6f7beea5f47a483512713b9e8cc81.jpeg" 
-              alt="AquaFlow Logo" 
-              className="w-48 h-48 max-w-full h-auto"
-            />
           </div>
         </div>
       </div>
