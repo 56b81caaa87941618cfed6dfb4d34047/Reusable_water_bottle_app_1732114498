@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     <footer className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          
+
           {/* FOOTER COPY */}
           <div className="space-y-6">
             <h3 className="text-4xl font-bold">AquaFlow</h3>
@@ -26,25 +26,28 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <h4 className="text-2xl font-semibold">Connect With Us</h4>
             <div className="flex space-x-6">
-              <a href="#" className="text-blue-200 hover:text-white transition duration-300">
-                <i className='bx bxl-facebook text-4xl'></i>
+              <a href="#" aria-label="Facebook" className="text-blue-200 hover:text-white transition duration-300">
+                <i className="bx bxl-facebook text-4xl"></i>
               </a>
-              <a href="#" className="text-blue-200 hover:text-white transition duration-300">
-                <i className='bx bxl-twitter text-4xl'></i>
+              <a href="#" aria-label="Twitter" className="text-blue-200 hover:text-white transition duration-300">
+                <i className="bx bxl-twitter text-4xl"></i>
               </a>
-              <a href="#" className="text-blue-200 hover:text-white transition duration-300">
-                <i className='bx bxl-instagram text-4xl'></i>
+              <a href="#" aria-label="Instagram" className="text-blue-200 hover:text-white transition duration-300">
+                <i className="bx bxl-instagram text-4xl"></i>
               </a>
             </div>
           </div>
 
           {/* WATER DROP ICON */}
           <div className="flex justify-end items-center">
-            <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Reusable_water_bottle_app_1732114498/main/src/assets/images/d3a6f7beea5f47a483512713b9e8cc81.jpeg" alt="AquaFlow" className="max-w-full h-auto w-48 h-48" />
+            <img 
+              src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Reusable_water_bottle_app_1732114498/main/src/assets/images/d3a6f7beea5f47a483512713b9e8cc81.jpeg" 
+              alt="AquaFlow Logo" 
+              className="w-48 h-48 max-w-full h-auto"
+            />
           </div>
         </div>
       </div>
-        </div>
     </footer>
   );
 };
