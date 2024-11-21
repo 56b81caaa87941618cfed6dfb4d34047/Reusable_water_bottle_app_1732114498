@@ -555,5 +555,15 @@
         "source": "base_assistant",
         "content": "The water drop icon has been moved between the Quick Links and Connect With Us sections. Is there anything else you would like to adjust?",
         "metadata": {}
+    },
+    {
+        "id": "b1c518cc-51c0-41ef-a13c-eb4cb2d2d41a",
+        "timestamp": "2024-11-21T09:40:09.541466Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "the button explore now should resendo you to google.com",
+        "metadata": {
+            "component_id": "Hero1732114502"
+        }
     }
 ]
